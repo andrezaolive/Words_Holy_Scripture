@@ -1,2 +1,2 @@
 # Words in the Holy Scripture
-Um projeto de Ciência de Dados que analisa a frequência de palavras na Bíblia.
+A data science project that analyzes the frequency and correlations of words in the Holy Scriptures. The version used is the Ave Maria (2013).
