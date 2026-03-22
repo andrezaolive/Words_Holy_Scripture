@@ -23,47 +23,57 @@ def salvar_para_csv(texto_bruto, sigla_livro, capitulo, nome_arquivo):
     print(f"Sucesso! {len(versiculos)} versículos adicionados ao arquivo {nome_arquivo}.")
 
 # Uso:
-texto_puro = """1 O Senhor disse a Noé: “Entra na arca, tu e toda a tua casa, porque te 
-reconheci justo diante dos meus olhos, entre os de tua geração. 2 De 
-todos os animais puros tomarás sete casais, machos e fêmeas, e de todos os 
-animais impuros tomarás um casal, macho e fêmea; 3 das aves do céu 
-igualmente sete casais, machos e fêmeas, para que se conserve viva a raça 
-sobre a face de toda a terra. 4 Dentro de sete dias farei chover sobre a terra 
-durante quarenta dias e quarenta noites, e exterminarei da superfície da terra 
-todos os seres que eu fiz”. 5 Noé fez tudo o que o Senhor lhe tinha 
-ordenado. 
-6 Noé tinha seiscentos anos quando veio o dilúvio sobre a terra. 7 Para 
-escapar à inundação, entrou na arca com seus filhos, sua mulher e as 
-mulheres de seus filhos. 8 Dos animais puros e impuros, das aves e de tudo 
+texto_puro = """1 José lançou-se então sobre o rosto de seu pai e o beijou chorando. 2 
+ Ordenou depois aos médicos que o serviam que embalsamassem seu 
+pai, e os médicos embalsamaram Israel. 3 Gastaram nisso quarenta dias, que 
+é o tempo necessário ao embalsamamento. Os egípcios choraram-no 
+durante setenta dias. 4 Passado o tempo do pranto, José disse à casa do 
+faraó: “Se achei graça aos vossos olhos, dizei de minha parte ao faraó 5 Aque 
+meu pai me fez jurar-lhe: ‘Eu vou morrer — disse-me ele —, tu me enterrarás 
+no túmulo que adquiri na terra de Canaã’. Permite-me, pois, subir e enterrar 
+meu pai, depois voltarei”. 6 O faraó respondeu: “Vai sepultar teu pai como 
+ele te fez jurar”. 
 
-que se arrasta sobre a terra, 9 entraram na arca com Noé um casal macho e 
-fêmea, como o Senhor tinha ordenado a Noé. 10 Passados os sete dias, as 
-águas do dilúvio precipitaram-se sobre a terra. 
+7 José partiu para sepultar seu pai. Todos os servos do faraó, os anciãos de 
+sua casa e todos os anciãos do Egito, 8 Atoda a casa de José, seus irmãos e a 
+casa de seu pai o seguiram. Deixaram na terra de Gessen somente seus 
+filhinhos, suas ovelhas e seus bois. 9 Carros e cavaleiros acompanhavam- 
+no, de sorte que a caravana era muito grande. 10 Chegando à eira de Atad, 
+além do Jordão, fizeram uma grande e solene lamentação, e José celebrou, 
+em honra de seu pai, um pranto de sete dias. 11 Vendo esse pranto na eira de 
+Atad, o povo daquela terra disse: “Grande pranto é esse dos egípcios!”. Daí 
+o nome de Abel-Misraim dado a esse lugar, que está situado além do 
+Jordão.* 12 Os filhos de Jacó fizeram, pois, o que ele lhes tinha ordenado. 13 
 
-11 No ano seiscentos da vida de Noé, no segundo mês, no décimo sétimo 
-dia do mês, romperam-se naquele dia todas as fontes do grande abismo, e 
-abriram-se as barreiras do céu. 12 A chuva caiu sobre a terra durante 
-quarenta dias e quarenta noites. 13 Naquele mesmo dia, entrou Noé na arca, 
-com Sem, Cam e Jafé, seus filhos, sua mulher e as três mulheres de seus 
-filhos; 14 e com eles os animais selvagens de toda a espécie, os animais 
-domésticos de toda a espécie, os répteis de toda a espécie que se arrastavam 
-sobre a terra, e tudo o que voa, de toda a espécie, todas as aves e tudo o que 
-tem asas. 15 De cada espécie que tem um sopro de vida um casal entrou na 
-arca com Noé. 16 Eles chegavam, macho e fêmea, de cada espécie. Como 
-Deus tinha ordenado a Noé. E o Senhor fechou a porta atrás dele. 
 
-17 O dilúvio caiu sobre a terra durante quarenta dias. As águas incharam e 
-levantaram a arca, que foi elevada acima da terra. 18 As águas inundaram 
-tudo com violência, e cobriram toda a terra, e a arca flutuava na superfície 
-das águas. 19 As águas engrossaram prodigiosamente sobre a terra, e 
-cobriram todos os altos montes que existem debaixo do céu; 20 e elevaram- 
-se quinze côvados acima dos montes que cobriam. 21 Todas as criaturas que 
-se moviam na terra foram exterminadas: aves, animais domésticos, feras 
-selvagens e tudo o que se arrasta na terra, e todos os homens. 22 Tudo o que 
-respira e tem um sopro de vida sobre a terra pereceu. 23 Assim foram 
-exterminados todos os seres que se encontravam sobre a face da terra, desde 
-os homens até os quadrúpedes, tanto os répteis como as aves do céu, tudo 
-foi exterminado da terra. Só Noé ficou e o que se encontrava com ele na 
-arca. 24 As águas cobriram a terra pelo espaço de cento e cinquenta dias. 
+Levaram-no para Canaã e enterraram-no na caverna da terra de Macpela, 
+que Abraão tinha comprado, juntamente com a propriedade de Efron, o 
+hiteu, defronte de Mambré, para ter a propriedade de uma sepultura. 
+
+14 Depois do enterro, José voltou para o Egito com seus irmãos e todos os 
+que o tinham acompanhado nos funerais de seu pai. 15 Os irmãos de José, 
+vendo que seu pai morrera, disseram entre si: “Será que José nos tomará em 
+aversão e irá vingar-se de todo o mal que lhe fizemos?”. 16 Mandaram, pois, 
+dizer-lhe: “Antes de morrer, teu pai recomendou-nos 17 Aque te pedíssemos 
+perdão do crime que teus irmãos cometeram, de seu pecado, de todo o mal 
+que te fizeram. Perdoa, pois, agora esse crime àqueles que servem o Deus 
+de teu pai”. Ouvindo isso, José chorou. 18 Seus irmãos vieram jogar-se aos 
+seus pés, dizendo: “Somos teus escravos!”. 19 José disse-lhes: “Não temais: 
+posso eu pôr-me no lugar de Deus? 20 Vossa intenção era de fazer-me mal, 
+mas Deus tirou daí um bem, era para fazer, como acontece hoje, com que se 
+conservasse a vida a um grande povo. 21 Não temais, pois: eu vos 
+sustentarei a vós e a vossos filhos”. Essas palavras, que lhes foram direto ao 
+coração, reconfortaram-nos. 
+
+22 José habitou no Egito, e também a família de seu pai. Viveu cento e 
+dez anos. 23 Viu os descendentes de Efraim até a terceira geração. 
+Igualmente, os filhos de Maquir, filho de Manassés, vieram à luz sobre os 
+joelhos de José.* 24 José disse a seus irmãos: “Vou morrer, mas Deus vos 
+visitará seguramente e vos fará subir desta terra para a terra que jurou dar a 
+Abraão, Isaac e a Jacó”. 25 E José fez que os filhos de Israel jurassem: 
+“Quando Deus vos visitar — disse ele — levareis daqui os meus ossos”. 26 
+José morreu com a idade de cento e dez anos. Foi embalsamado e 
+depositado num sarcófago no Egito. 
+
 """
-salvar_para_csv(texto_puro, "Gen", 7, "biblia_genesis7.csv")
+salvar_para_csv(texto_puro, "Gen", 50, "biblia_genesis50.csv")
