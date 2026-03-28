@@ -32,6 +32,6 @@ def concatenar_csvs(diretorio_origem, arquivo_saida):
 
 # O caminho da pasta onde estão os arquivos csv
 pasta_dos_capitulos = './Biblia/Capitulos' 
-nome_do_final = '01_Genesis.csv'
+nome_do_final = '02_Exodo.csv'
 
 concatenar_csvs(pasta_dos_capitulos, nome_do_final)

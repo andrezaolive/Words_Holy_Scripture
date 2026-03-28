@@ -5,10 +5,17 @@ def salvar_para_csv(texto_bruto, sigla_livro, capitulo, nome_arquivo):
     # Limpa espaços e quebras de linha duplas
     texto_unificado = re.sub(r'\s+', ' ', texto_bruto).strip()
 
-    # Regex que identifica: [Número] [Espaço] [Letra Maiúscula]
+    # 1. Regex que identifica: [Número] [Espaço] [Letra Maiúscula]
     # Isso evita capturar números como "2 de cada espécie" no meio da frase como versiculo
-    padrao = r'(\d+)\s+([A-Z].+?)(?=\s+\d+\s+[A-Z]|$)'
+    # padrao = r'(\d+)\s+([A-Z].+?)(?=\s+\d+\s+[A-Z]|$)'
     
+    # 2. Regex aprimorado para aceitar letras acentuadas e minúsculas, além de garantir que 
+    # o próximo número seja seguido por um espaço e uma letra maiúscula ou seja o fim do texto:
+    # [a-zA-ZáàâãéèêíïóôõöúçñÁÀÂÃÉÈÊÍÏÓÔÕÖÚÇÑ] -> Aceita qualquer letra (maiusc/minusc/acentuada)
+    # (?=\s+\d+\s+|$) -> Para antes do próximo número ou fim do texto
+
+    padrao = r'(\d+)\s+([a-zA-ZáàâãéèêíïóôõöúçñÁÀÂÃÉÈÊÍÏÓÔÕÖÚÇÑ\“\”\'\-\(].+?)(?=\s+\d+\s+|$)'
+
     versiculos = re.findall(padrao, texto_unificado)
 
     # Gravação física do arquivo CSV
@@ -23,57 +30,42 @@ def salvar_para_csv(texto_bruto, sigla_livro, capitulo, nome_arquivo):
     print(f"Sucesso! {len(versiculos)} versículos adicionados ao arquivo {nome_arquivo}.")
 
 # Uso:
-texto_puro = """1 José lançou-se então sobre o rosto de seu pai e o beijou chorando. 2 
- Ordenou depois aos médicos que o serviam que embalsamassem seu 
-pai, e os médicos embalsamaram Israel. 3 Gastaram nisso quarenta dias, que 
-é o tempo necessário ao embalsamamento. Os egípcios choraram-no 
-durante setenta dias. 4 Passado o tempo do pranto, José disse à casa do 
-faraó: “Se achei graça aos vossos olhos, dizei de minha parte ao faraó 5 Aque 
-meu pai me fez jurar-lhe: ‘Eu vou morrer — disse-me ele —, tu me enterrarás 
-no túmulo que adquiri na terra de Canaã’. Permite-me, pois, subir e enterrar 
-meu pai, depois voltarei”. 6 O faraó respondeu: “Vai sepultar teu pai como 
-ele te fez jurar”. 
+texto_puro = """1 O Senhor chamou Moisés e falou-lhe da tenda de reunião: 2 “Fala — 
+oferta ao Senhor, será dentre o gado maior ou menor que oferecereis. 
 
-7 José partiu para sepultar seu pai. Todos os servos do faraó, os anciãos de 
-sua casa e todos os anciãos do Egito, 8 Atoda a casa de José, seus irmãos e a 
-casa de seu pai o seguiram. Deixaram na terra de Gessen somente seus 
-filhinhos, suas ovelhas e seus bois. 9 Carros e cavaleiros acompanhavam- 
-no, de sorte que a caravana era muito grande. 10 Chegando à eira de Atad, 
-além do Jordão, fizeram uma grande e solene lamentação, e José celebrou, 
-em honra de seu pai, um pranto de sete dias. 11 Vendo esse pranto na eira de 
-Atad, o povo daquela terra disse: “Grande pranto é esse dos egípcios!”. Daí 
-o nome de Abel-Misraim dado a esse lugar, que está situado além do 
-Jordão.* 12 Os filhos de Jacó fizeram, pois, o que ele lhes tinha ordenado. 13 
+3 Se a oferta for um holocausto tirado do gado maior, oferecerá um 
+macho sem defeito; e o oferecerá à entrada da tenda de reunião para obter o 
+favor do Senhor. 4 Porá a mão sobre a cabeça da vítima, que será aceita em 
+seu favor para lhe servir de expiação. 5 Matará o novilho diante do Senhor. 
+Os sacerdotes, filhos de Aarão, oferecerão o sangue e o derramarão ao redor 
+sobre o altar que está à entrada da tenda de reunião. 6 Tirará a pele da vítima 
+e esta será cortada em pedaços. 7 Os filhos do sacerdote Aarão porão fogo 
+no altar e empilharão a lenha sobre ele, 8 dispondo, em seguida, por cima da 
+lenha, os pedaços, a cabeça e a gordura. 9 Lavarão com água as entranhas e 
+as pernas, e o sacerdote queimará tudo sobre o altar. Esse é um holocausto, 
+um sacrifício consumido pelo fogo, de odor agradável ao Senhor. 
+
+10 Se a sua oferta for um holocausto tirado do gado menor, dos cordeiros 
+ou das cabras, oferecerá um macho sem defeito. 1 Matará o animal ao do 
+lado norte do altar, diante do Senhor, e os sacerdotes, filhos de Aarão, 
 
 
-Levaram-no para Canaã e enterraram-no na caverna da terra de Macpela, 
-que Abraão tinha comprado, juntamente com a propriedade de Efron, o 
-hiteu, defronte de Mambré, para ter a propriedade de uma sepultura. 
+derramarão o seu sangue em redor do altar. 12 A vítima será, em seguida, 
+cortada em pedaços, com a cabeça e a gordura, que o sacerdote disporá 
+sobre a lenha colocada no fogo do altar. 13 As entranhas e as pernas serão 
+lavadas com água, e, em seguida, o sacerdote oferecerá tudo isso, 
+queimando-o no altar. Esse é um holocausto, um sacrifício consumido pelo 
+fogo, de odor agradável ao Senhor. 
 
-14 Depois do enterro, José voltou para o Egito com seus irmãos e todos os 
-que o tinham acompanhado nos funerais de seu pai. 15 Os irmãos de José, 
-vendo que seu pai morrera, disseram entre si: “Será que José nos tomará em 
-aversão e irá vingar-se de todo o mal que lhe fizemos?”. 16 Mandaram, pois, 
-dizer-lhe: “Antes de morrer, teu pai recomendou-nos 17 Aque te pedíssemos 
-perdão do crime que teus irmãos cometeram, de seu pecado, de todo o mal 
-que te fizeram. Perdoa, pois, agora esse crime àqueles que servem o Deus 
-de teu pai”. Ouvindo isso, José chorou. 18 Seus irmãos vieram jogar-se aos 
-seus pés, dizendo: “Somos teus escravos!”. 19 José disse-lhes: “Não temais: 
-posso eu pôr-me no lugar de Deus? 20 Vossa intenção era de fazer-me mal, 
-mas Deus tirou daí um bem, era para fazer, como acontece hoje, com que se 
-conservasse a vida a um grande povo. 21 Não temais, pois: eu vos 
-sustentarei a vós e a vossos filhos”. Essas palavras, que lhes foram direto ao 
-coração, reconfortaram-nos. 
+14 Se a sua oferta ao Senhor for um holocausto tirado dentre as aves, 
+oferecerá rolas ou pombinhos. 15 O sacerdote porá a ave sobre o altar, lhe 
+destroncará a cabeça e a queimará no altar, depois de haver espremido o seu 
+sangue contra a parede do altar. 16 Tirará o papo com as penas e os jogará 
+perto do altar, para o oriente, no lugar onde se põem as cinzas. 17 Abrirá em 
+seguida a ave à altura das asas, sem as desprender, e a queimará no altar, em 
+cima da lenha que está no fogo. Esse é um holocausto, um sacrifício 
+consumido pelo fogo, de odor agradável ao Senhor”. 
 
-22 José habitou no Egito, e também a família de seu pai. Viveu cento e 
-dez anos. 23 Viu os descendentes de Efraim até a terceira geração. 
-Igualmente, os filhos de Maquir, filho de Manassés, vieram à luz sobre os 
-joelhos de José.* 24 José disse a seus irmãos: “Vou morrer, mas Deus vos 
-visitará seguramente e vos fará subir desta terra para a terra que jurou dar a 
-Abraão, Isaac e a Jacó”. 25 E José fez que os filhos de Israel jurassem: 
-“Quando Deus vos visitar — disse ele — levareis daqui os meus ossos”. 26 
-José morreu com a idade de cento e dez anos. Foi embalsamado e 
-depositado num sarcófago no Egito. 
 
 """
-salvar_para_csv(texto_puro, "Gen", 50, "biblia_genesis50.csv")
+salvar_para_csv(texto_puro, "Lv", 1, "biblia_levitico1.csv")
