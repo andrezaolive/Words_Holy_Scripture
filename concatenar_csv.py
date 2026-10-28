@@ -30,8 +30,9 @@ def concatenar_csvs(diretorio_origem, arquivo_saida):
             print(f"[{i+1}/{len(arquivos)}] {nome_f} mesclado com sucesso.")
 
 
-# O caminho da pasta onde estão os arquivos csv
-pasta_dos_capitulos = './Biblia/Capitulos' 
-nome_do_final = '03_Levitico.csv'
+# O caminho da pasta onde estão os arquivos csv, relativo a este script
+pasta_do_projeto = os.path.dirname(os.path.abspath(__file__))
+pasta_dos_capitulos = os.path.join(pasta_do_projeto, 'Biblia', 'Capitulos')
+nome_do_final = '05_Deuteronomio.csv'
 
 concatenar_csvs(pasta_dos_capitulos, nome_do_final)

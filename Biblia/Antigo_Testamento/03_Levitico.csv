@@ -8,7 +8,7 @@ Lv;1;7;Os filhos do sacerdote Aarão porão fogo no altar e empilharão a lenha 
 Lv;1;8;dispondo, em seguida, por cima da lenha, os pedaços, a cabeça e a gordura.
 Lv;1;9;Lavarão com água as entranhas e as pernas, e o sacerdote queimará tudo sobre o altar. Esse é um holocausto, um sacrifício consumido pelo fogo, de odor agradável ao Senhor.
 Lv;1;10;Se a sua oferta for um holocausto tirado do gado menor, dos cordeiros ou das cabras, oferecerá um macho sem defeito.
-Lv;1;1;Matará o animal ao do lado norte do altar, diante do Senhor, e os sacerdotes, filhos de Aarão, derramarão o seu sangue em redor do altar.
+Lv;1;11;Matará o animal ao do lado norte do altar, diante do Senhor, e os sacerdotes, filhos de Aarão, derramarão o seu sangue em redor do altar.
 Lv;1;12;A vítima será, em seguida, cortada em pedaços, com a cabeça e a gordura, que o sacerdote disporá sobre a lenha colocada no fogo do altar.
 Lv;1;13;As entranhas e as pernas serão lavadas com água, e, em seguida, o sacerdote oferecerá tudo isso, queimando-o no altar. Esse é um holocausto, um sacrifício consumido pelo fogo, de odor agradável ao Senhor.
 Lv;1;14;Se a sua oferta ao Senhor for um holocausto tirado dentre as aves, oferecerá rolas ou pombinhos.
@@ -41,7 +41,7 @@ Lv;3;7;Se oferecer um cordeiro, o apresentará diante do Senhor,
 Lv;3;8;porá a mão sobre a cabeça da vítima e a imolará diante da tenda de reunião. Em seguida, os filhos de Aarão derramarão o sangue em volta do altar.
 Lv;3;9;Desse sacrifício pacífico oferecerá, à guisa de sacrifício pelo fogo ao Senhor, a gordura, a cauda inteira cortada rente à espinha, a gordura que envolve as entranhas e que se acha aderida a elas,
 Lv;3;10;os dois rins com a gordura que os envolve na região lombar e a pele que recobre o fígado, a qual será desprendida de junto dos rins.
-Lv;3;1;O sacerdote queimará isso no altar, esse é o alimento de um sacrifício feito pelo fogo ao Senhor.
+Lv;3;11;O sacerdote queimará isso no altar, esse é o alimento de um sacrifício feito pelo fogo ao Senhor.
 Lv;3;12;Se a oferta for uma cabra, ele a apresentará diante do Senhor,
 Lv;3;13;porá a mão sobre sua cabeça e a imolará diante da tenda de reunião, e os filhos de Aarão derramarão o sangue em torno do altar.
 Lv;3;14;Dessa oferta oferecerá, à guisa de sacrifício feito pelo fogo ao Senhor, a gordura que envolve as entranhas e que se acha aderida a elas,
@@ -501,8 +501,8 @@ Lv;17;10;A todo israelita ou a todo estrangeiro, que habita no meio deles, e que
 Lv;17;11;Pois a alma da carne está no sangue, e dei-vos esse sangue para o altar, a fim de que ele sirva de expiação por vossas almas, porque é pela alma que o sangue expia.
 Lv;17;12;Eis por que eu disse aos israelitas: Ninguém dentre vós comerá sangue, nem o estrangeiro que habita no meio de vós.
 Lv;17;13;Se um israelita ou um estrangeiro que habita no meio deles capturar na caça um animal ou pássaro que se possa comer, derramará o seu sangue e o cobrirá com terra,
-Lv;17;14;"porque a alma de toda carne é o seu sangue, que é sua alma. Eis por que eu disse aos israelitas: Não comereis sangue de animal algum, porque a alma de toda carne é o seu sangue; quem o comer será eliminado."
-Lv;17;15;"Toda pessoa, natural ou estrangeira, que comer um animal morto ou dilacerado, deverá lavar suas vestes, tomar banho, e ficará impura até a tarde; e depois será pura."
+Lv;17;14;porque a alma de toda carne é o seu sangue, que é sua alma. Eis por que eu disse aos israelitas: Não comereis sangue de animal algum, porque a alma de toda carne é o seu sangue, quem o comer será eliminado.
+Lv;17;15;Toda pessoa, natural ou estrangeira, que comer um animal morto ou dilacerado, deverá lavar suas vestes, tomar banho, e ficará impura até a tarde, e depois será pura.
 Lv;17;16;Mas, se não lavar as vestes e o corpo, levará sobre si a sua iniquidade”.
 Lv;18;1;O Senhor disse a Moisés:
 Lv;18;2;“Dize aos israelitas o seguinte: Eu sou o Senhor, vosso Deus.
@@ -514,7 +514,7 @@ Lv;18;7;Não descobrirás a nudez de teu pai, nem a de tua mãe. Ela é tua mãe
 Lv;18;8;Não descobrirás a nudez da mulher de teu pai: é a nudez de teu pai.
 Lv;18;9;Nem a de tua irmã, filha de teu pai ou de tua mãe, nascida na casa ou fora dela.
 Lv;18;10;Não descobrirás a nudez da filha de teu filho ou da filha de tua filha, porque é tua nudez.
-Lv;18;1;Nem a da filha da mulher de teu pai, nascida de teu pai: é tua irmã.
+Lv;18;11;Nem a da filha da mulher de teu pai, nascida de teu pai: é tua irmã.
 Lv;18;12;Não descobrirás a nudez da irmã de teu pai: ela é da mesma carne que teu pai.
 Lv;18;13;Nem a da irmã de tua mãe, porque ela é da mesma carne que tua mãe.
 Lv;18;14;Não descobrirás a nudez do irmão de teu pai, aproximando-te de sua mulher: é tua tia.
@@ -598,30 +598,6 @@ Lv;20;24;Eu vos disse: “Possuireis essa terra, a qual vos darei em possessão,
 Lv;20;25;Fareis a distinção entre animais puros e impuros, entre as aves puras e impuras, e não vos torneis abomináveis por causa de animais, de aves ou de animais que se arrastam sobre a terra, como vos ensinei a distinguir como impuros.
 Lv;20;26;Sereis para mim santos, porque eu, o Senhor, sou santo, e vos separei dos outros povos para que sejais meus.
 Lv;20;27;Qualquer homem ou mulher que evocar os espíritos ou fizer adivinhações, será morto. Serão apedrejados, e levarão sua culpa”.
-Lv;21;1;O Senhor disse a Moisés: “Dize aos sacerdotes, filhos de Aarão, o seguinte: Ninguém será considerado como impuro no meio de seu povo por causa de um morto,
-Lv;21;2;exceto quando se trate de seu parente próximo, mãe, pai, filho, filha, irmão,
-Lv;21;3;irmã virgem que não se casou e vive junto dele. Por ela poderá contaminar-se.
-Lv;21;4;Ele, sendo chefe no meio de seu povo, não se tornará impuro, para não se profanar.
-Lv;21;5;Os sacerdotes não rasparão a cabeça, nem os lados de sua barba, e não farão incisões em sua carne.
-Lv;21;6;Serão santos para o seu Deus e não profanarão o seu nome, porque oferecem ao Senhor os sacrifícios consumidos pelo fogo, o pão de seu Deus. Serão santos.
-Lv;21;7;Não desposarão uma mulher prostituída ou desonrada, nem uma mulher repudiada pelo marido, porque são santos para o seu Deus.
-Lv;21;8;Terás, pois, o sacerdote por santo, porque ele oferece o pão de teu Deus. Ele será santo para ti, porque eu, o Senhor que vos santifico, sou santo.
-Lv;21;9;Se a filha de um sacerdote se desonrar pela prostituição, desonrará seu pai e será queimada no fogo.
-Lv;21;10;O sumo sacerdote, superior a seus irmãos, sobre cuja cabeça se derramou o óleo da unção, e que foi estabelecido para revestir as vestes sagradas, não descobrirá a sua cabeça, e não rasgará as suas vestes.
-Lv;21;11;Não se aproximará de morto algum, e não se contaminará por seu pai, nem por sua mãe.
-Lv;21;12;Não sairá do santuário de seu Deus, e não o profanará, porque o óleo da unção de seu Deus está sobre ele como um diadema. Eu sou o Senhor.
-Lv;21;13;Tomará por mulher uma virgem.
-Lv;21;14;Não desposará nem viúva, nem mulher repudiada, nem mulher prostituída ou desonrada, mas desposará uma virgem do meio de seu povo.
-Lv;21;15;Não desonrará sua linhagem no meio de seu povo, porque sou eu, o Senhor, que o santifico”.
-Lv;21;16;O Senhor disse a Moisés:
-Lv;21;17;“Dize a Aarão o seguinte: Homem algum de tua linhagem, por todas as gerações, que tenha algum defeito físico, oferecerá o pão de seu Deus.
-Lv;21;18;Desse modo, serão excluídos todos aqueles que tiverem uma deformidade: cegos, coxos, mutilados, pessoas de membros desproporcionais,
-Lv;21;19;ou tenha uma fratura no pé ou na mão,
-Lv;21;20;corcundas ou anões, os que tiverem uma mancha no olho, ou a sarna, uma inflamação, ou os testículos esmagados.
-Lv;21;21;Homem algum da linhagem de Aarão, o sacerdote, que for deformado, oferecerá os sacrifícios consumidos pelo fogo. Sendo vítima de uma deformidade, não poderá apresentar-se para oferecer o pão de seu Deus.
-Lv;21;22;Mas poderá comer o pão de seu Deus, proveniente das ofertas santíssimas e das ofertas santas.
-Lv;21;23;Não se aproximará, porém, do véu nem do altar, porque é deformado. Não profanará meus santuários, porque eu sou o Senhor que os santifico”.
-Lv;21;24;Tais foram as palavras de Moisés a Aarão e a seus filhos, bem como a todos os israelitas.
 Lv;21;1;O Senhor disse a Moisés: “Dize aos sacerdotes, filhos de Aarão, o seguinte: Ninguém será considerado como impuro no meio de seu povo por causa de um morto,
 Lv;21;2;exceto quando se trate de seu parente próximo, mãe, pai, filho, filha, irmão,
 Lv;21;3;irmã virgem que não se casou e vive junto dele. Por ela poderá contaminar-se.
@@ -756,7 +732,7 @@ Lv;25;7;tudo o que nascer servirá de alimento também ao teu rebanho e aos anim
 Lv;25;8;Contarás sete anos sabáticos, sete vezes sete anos, cuja duração fará um período de quarenta e nove anos.
 Lv;25;9;Tocarás então a trombeta no décimo dia do sétimo mês: tocareis a trombeta no dia das Expiações em toda a vossa terra.
 Lv;25;10;Santificareis o quinquagésimo ano e publicareis a liberdade na terra para todos os seus habitantes. Será o vosso jubileu. Voltareis cada um para as suas terras e para a sua família.
-Lv;25;1;O quinquagésimo ano será para vós um jubileu: não semeareis, não ceifareis o que a terra produzir espontaneamente, e não vindimareis a vinha não podada,
+Lv;25;11;O quinquagésimo ano será para vós um jubileu: não semeareis, não ceifareis o que a terra produzir espontaneamente, e não vindimareis a vinha não podada,
 Lv;25;12;pois é o jubileu que vos será sagrado. Comereis o produto de vossos campos.
 Lv;25;13;Nesse ano jubilar, voltareis cada um à sua possessão.
 Lv;25;14;Se venderdes ou comprardes alguma coisa de vosso próximo, ninguém dentre vós cause dano ao seu irmão.
